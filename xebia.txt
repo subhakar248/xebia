@@ -1,0 +1,11 @@
+docker pull jenkins
+docker run -d --name jenkines jenkins
+docker logs -f jenkines
+docker stop jenkins
+docker start jenkins
+
+
+
+to remove 
+docker stop jenkins
+docker rm jenkins
