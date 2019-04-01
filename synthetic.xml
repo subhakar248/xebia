@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<synthetic xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd" xmlns="http://www.xebialabs.com/deployit/synthetic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<synthetic xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd" 
+xmlns="http://www.xebialabs.com/deployit/synthetic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <type type="myplugin.MyTask" extends="xlrelease.PythonScript">
-<property name="firstName" label="Name" required="true" hidden="true" category="input"
-<property name="greeting" label="Greeting" required="true" category="output"
-<property name="taskColor" hidden="true" default="#9C00DB" />
+<property name="firstName" label="Name" category="input" required="true"/>
+<property name="greeting" label="Greeting" category="output" required="true"/>
 </type>
 </synthetic>
